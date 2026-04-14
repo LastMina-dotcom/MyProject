@@ -1,0 +1,19 @@
+{
+
+    "projects" :  [
+
+        {
+            "title": "portfolio",
+            "tech": "html"
+        },
+        {
+        
+            "title": "market",
+            "tech": "css"
+        }
+
+
+    ]
+
+
+}
