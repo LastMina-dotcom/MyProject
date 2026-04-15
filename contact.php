@@ -8,8 +8,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     
     $body = "Name: $name \n" . "Email: $email \n\n" . "\"\" $message \"\"";
 
-    $headers = "From: $email"
-    mail($to , $subject,$body,$headers)
-    echo "message sent successfully !"
+    $headers = "From: $email";
+    mail($to,$subject,$body,$headers);
+    
+    echo "message sent successfully !";
     
 };
